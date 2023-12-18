@@ -141,3 +141,11 @@ main {
   font-size: 0.8rem;
   color: #000;
  }
+
+ /* career detail */
+ .career-details {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  border-radius: 4px;
+  margin: 20px 0;
+ }
