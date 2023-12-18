@@ -17,12 +17,10 @@ import Contact from "./pages/help/Contact";
 import Faq from "./pages/help/Faq";
 
 // career layout
-import { Careers } from "./pages/careers/Careers";
+import { Careers, careersLoader } from "./pages/careers/Careers";
 
-// 404 
+// 404
 import NotFound from "./NotFound";
-
-
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -35,7 +33,7 @@ const router = createBrowserRouter(
       </Route>
 
       <Route path="careers" element={<CareersLayout />}>
-        <Route index element={<Careers />} />
+        <Route index element={<Careers />} loader={careersLoader} />
       </Route>
 
       <Route path="*" element={<NotFound />} />
