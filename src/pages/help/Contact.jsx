@@ -9,7 +9,7 @@ export default function Contact() {
         </label>
         <label>
           <span>Mobile No:</span>
-          <input type="email" name="email" required />
+          <input type="text" name="mobile" required />
         </label>
         <label>
           <span>Your Message:</span>

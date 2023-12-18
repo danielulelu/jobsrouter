@@ -1,4 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
+import { BreadCrumps } from "../components/BreadCrumps";
 
 export default function RootLayout() {
   return (
@@ -11,6 +12,7 @@ export default function RootLayout() {
           <NavLink to="help">Help</NavLink>
           <NavLink to="careers">Jobs</NavLink>
         </nav>
+        <BreadCrumps />
       </header>
 
       <main>
